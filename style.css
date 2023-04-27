@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif
+}
+
+.heading {
+  text-align: center;
+  font-size: 44px;
+  color: #1F3F68;
+}
+
+img {
+  border: 1px solid #0015ff8c;
+}
+
+.main-p {
+  background: url(img/logo_AL.png) no-repeat 50%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F3F68;
+}
+
+li {
+  list-style-type: square;
+  /* list-style-image: url(img/logo_AL.png); */
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(121, 62, 248);
+  text-transform: uppercase;
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 44px;
+  text-align: center;
+}
+
+input,
+textarea {
+  border: 1px solid #356EAD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  opacity: 0.4;
+}
+
+.submit {
+  background: #5A98D0;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
