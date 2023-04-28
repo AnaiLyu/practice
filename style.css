@@ -1,10 +1,23 @@
-body{
-    background-color: rgb(150, 183, 199);
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: #5c0303;
+body {
+
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #000000;
 }
-img{
-    height: 50%;
-    width: auto;
+
+table {
+  width: 500px;
+  height: 400px;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  vertical-align: top;
+
+}
+
+.month {
+  vertical-align: middle;
+  text-align: center;
 }
