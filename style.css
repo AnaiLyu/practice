@@ -22,17 +22,17 @@ p {
   color: #1F3F68;
 }
 
-li {
+/* li {
   list-style-type: square;
-  /* list-style-image: url(img/logo_AL.png); */
+  list-style-image: url(img/logo_AL.png);
   font-size: 1.3em;
-}
+} */
 
-a {
+/* a {
   text-decoration: none;
   color: rgb(121, 62, 248);
   text-transform: uppercase;
-}
+} */
 
 .contact {
   font-weight: 500;
@@ -58,4 +58,80 @@ textarea {
   text-align: center;
   color: #FFFFFF;
   text-transform: uppercase;
+}
+
+hr {
+  margin: 100px 0;
+}
+
+
+.menu li {
+  border: 2px solid blue;
+  width: 100px;
+  height: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu li:first-child {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.menu li:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.menu li:nth-child(2n-1) {
+  background-color: #9b9696;
+}
+
+.menu li:nth-child(2n) a {
+  color: olivedrab;
+}
+
+.menu li a:hover {
+  color: red;
+}
+
+.menu li a:hover::after {
+  content: ' >>';
+  color: red;
+}
+
+.menu li a:active {
+  color: rgb(216, 29, 245);
+}
+
+
+.list li:nth-child(3n-1):after {
+  content: " new";
+  color: blueviolet;
+  text-transform: uppercase;
+}
+
+.text::first-letter {
+  font-size: 2.3em;
+  color: green;
+}
+
+.table {
+  border: 2px solid black;
+  width: 400px;
+  height: 300px;
+  border-spacing: 10px;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid blue;
+  padding: 10px;
+  /* vertical-align Только внутри ячейки таблицы  */
+  vertical-align: middle;
+  text-align: center;
+}
+
+td:hover {
+  background-color: #b4b2b2;
 }
