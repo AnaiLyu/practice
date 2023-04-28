@@ -9,7 +9,11 @@ body {
 }
 
 img {
-  border: 1px solid #0015ff8c;
+  outline: 1px solid #0015ff8c;
+}
+
+img:hover {
+  outline: none;
 }
 
 .main-p {
